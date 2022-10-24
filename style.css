@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 95vh;
+    background: linear-gradient( #010707, #85fbf1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.heading {
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+.card{
+    background-color: #248e8e;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px rgb(32, 204, 207), 5px 5px 12px rgba(0, 0, 0, 0.16);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display {
+    background-color: rgb(92, 123, 123);
+    height: 20%;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: inset 2px 3px 11px rgb(0, 0, 0), 2px 3px 11px rgb(6, 151, 127) ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.display input {
+    background: transparent;
+    border: none;
+    text-align: end;
+    font-size: 35px;
+    width: 90%;
+    color: white;
+    outline: none;
+}
+
+.button{
+    height: 70%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tombol-kiri{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.tombol{
+    background-color: #096c6f;
+    box-shadow: inset 5px 5px 12px rgb(33, 102, 95), 5px 5px 12px rgb(0, 0, 0);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.tombol:hover{
+    transform: scale(0.9);
+}
+
+.tombol-kanan{
+    width: 30%;
+    border-radius: 20px;
+    background-color: rgb(13, 102, 94);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.26), 5px 5px 15px rgba(34, 147, 124, 0.16);
+    height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+
